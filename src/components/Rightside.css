@@ -1,0 +1,12 @@
+#cell {
+    margin-top: 50px;
+    border: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-auto-rows: 1fr;
+}
+
+.half-cell {
+    flex-grow: 5;
+}

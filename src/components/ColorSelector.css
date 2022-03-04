@@ -1,0 +1,41 @@
+.ColorSelector {
+  padding-right: 30px;
+
+}
+
+.ColorSelector__bubble {
+  padding: 2px;
+  background: #DDD;
+  display: inline-block;
+  border-radius: 2px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.ColorSelector__bubble__color {
+  background: red;
+  width: 122px;
+  height: 58px;
+  border: 1px solid white;
+}
+
+.ColorSelector__picker-wrapper {
+  display: inline-block;
+  background: #DDD;
+  padding: 2px;
+  border-radius: 12px;
+  position: absolute;
+  margin-top: -50px;
+  z-index: 999;
+}
+
+.ColorSelector .rcp-fields {
+  display: inline-block;
+}
+
+.ColorSelector .rcp-fields-element {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
